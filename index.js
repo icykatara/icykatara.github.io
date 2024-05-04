@@ -14,3 +14,14 @@ fs.readFile('./index.html', function (err, html) {
         response.end();  
     }).listen(PORT);
 });
+
+// fs.readFile('./style.css', function (err, css) {
+
+//     if (err) throw err;    
+
+//     http.createServer(function(request, response) {  
+//         response.writeHeader(200, {"Content-Type": "text/css"});  
+//         response.write(css);  
+//         response.end();  
+//     });
+// });
