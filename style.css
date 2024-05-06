@@ -54,9 +54,10 @@ body {
     color: var(--dark-grey);
 }
 .about-page-container {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 350px;
+    padding-right: 350px;
 }
+
 .about-page {
     text-align: center;
     font-family: dot-gothic-16;
@@ -73,6 +74,10 @@ body {
         padding-left:32px;
         padding-right: 32px;
     }
+    .about-page-container {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 }
 
 @media only screen and (max-width: 960px) { 
@@ -82,20 +87,31 @@ body {
     .nav-bar {
         font-size: 32px;
       }
-
     .nav-bar-button {
         padding-left: 16px;
         padding-right: 16px;
+    }
+    .about-page {
+        font-size: 24px;
+    }
+    .about-page-container {
+        padding-left: 150px;
+        padding-right: 150px;
     }
 }
 
 @media only screen and (max-width: 750px) { 
     .title {
-        font-size: 60px;
+        font-size: 58px;
     }
     .nav-bar {
         font-size: 24px;
       }
+
+    .about-page-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
     .nav-bar-button {
         padding-left: 8px;
