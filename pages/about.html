@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ICYKATARA</title>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            var includes = $('[data-include]')
+            $.each(includes, function () {
+                var file = '../' + $(this).data('include') + '.html'
+                $(this).load(file)
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <!--Navigation bar-->
+<div data-include="header-for-pages"></div>
+
+
+
+</body>
+</html>

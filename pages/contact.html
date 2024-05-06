@@ -3,18 +3,23 @@
 <head>
     <title>ICYKATARA</title>
     <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            var includes = $('[data-include]')
+            $.each(includes, function () {
+                var file = '../' + $(this).data('include') + '.html'
+                $(this).load(file)
+            })
+        })
+    </script>
 </head>
 
 <body>
-    <h1 class="title"><a class="title-font" href="index.html">JEANNE CHAN</a></h1>
-    <div style="text-align: center;" id="navigation-bar">
-        <ul class="nav-bar">
-            <li class="nav-bar-tab"><a class="nav-bar-button" href="../index.html">Home</a></li>
-            <!-- <li class="nav-bar-tab"><a class="nav-bar-button" href="news.asp">Garments</a></li> -->
-            <li class="nav-bar-tab"><a class="nav-bar-button" href="ceramics.html">Ceramics</a></li>
-            <li class="nav-bar-tab"><a class="nav-bar-button" href="about.html">About</a></li>
-            <li class="nav-bar-tab"><a class="nav-bar-button" href="contact.html">Contact</a></li>
-        </ul>
-    </div>
+    <!--Navigation bar-->
+<div data-include="header-for-pages"></div>
+
+
+
 </body>
 </html>

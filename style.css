@@ -21,7 +21,7 @@ body {
 .title {
     text-align: center;
     font-family: coda-caption;
-    font-size: 104px;
+    font-size: 96px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -33,7 +33,7 @@ body {
 
 .nav-bar {
     font-family: monofett;
-    font-size: 56px;
+    font-size: 48px;
     list-style-type: none;
     margin: auto;
     padding: 0;
@@ -56,13 +56,6 @@ body {
 
 /* mobile mode */
 @media only screen and (max-width: 1180px) { 
-    .title {
-        font-size: 96px;
-    }
-    .nav-bar {
-        font-size: 48px;
-      }
-
     .nav-bar-button {
         padding-left:32px;
         padding-right: 32px;
