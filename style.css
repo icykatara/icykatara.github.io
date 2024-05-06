@@ -54,8 +54,8 @@ body {
     color: var(--dark-grey);
 }
 .about-page-container {
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .about-page {
@@ -75,8 +75,8 @@ body {
         padding-right: 32px;
     }
     .about-page-container {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 200px;
+        padding-right: 200px;
     }
 }
 
@@ -95,8 +95,8 @@ body {
         font-size: 24px;
     }
     .about-page-container {
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
