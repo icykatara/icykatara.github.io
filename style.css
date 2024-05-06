@@ -1,4 +1,65 @@
+@font-face {
+    font-family: monofett; /* myFirstFont*/
+    src: url(fonts/monofett/Monofett-Regular.ttf);
+}
+@font-face {
+    font-family: coda-caption;
+    src: url(fonts/coda/CodaCaption-Heavy.ttf);
+}
+@font-face {
+    font-family: dot-gothic-16;
+    src: url(fonts/dotGothic16/DotGothic16-Regular.ttf);
+}
+
+body {
+    --dark-purple: #481698;
+    --light-purple: #C8C8F9;
+    --dark-grey: #272947;
+    background-color: var(--light-purple)
+}
+
 .title {
     text-align: center;
-    color: blue;
+    font-family: coda-caption;
+    font-size: 56px;
+    margin-bottom: 0px;
+}
+
+.title-font {
+    color: var(--dark-purple);
+    text-decoration: none;
+}
+
+.nav-bar {
+    font-family: monofett;
+    font-size: 32px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: inline-block;
+    /* text-align: center; */
+  }
+
+.nav-bar-tab {
+    float: left;
+}
+
+.nav-bar-button {
+    display: block;
+    padding-top: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
+@media only screen and (max-width: 700px) { /* mobile mode */
+    .nav-bar {
+        font-size: 26px;
+      }
+
+    .nav-bar-button {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
