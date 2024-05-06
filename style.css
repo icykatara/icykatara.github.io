@@ -53,7 +53,20 @@ body {
     text-decoration: none;
     color: var(--dark-grey);
 }
+.about-page-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.about-page {
+    text-align: center;
+    font-family: dot-gothic-16;
+    font-size: 32px;
+    color: var(--dark-grey);
+}
 
+.footer-container {
+    padding-bottom: 200px;
+}
 /* mobile mode */
 @media only screen and (max-width: 1180px) { 
     .nav-bar-button {
